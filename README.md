@@ -43,7 +43,7 @@ Organizations move workloads between clouds for cost optimization, compliance, p
 ---
 
 ## Architecture
-![Lab 06 architecture](Lab6%20Architecture.png)
+![Lab 06 architecture](lab06-architecture.png)
 
 
 The numbered arrows follow the migration in order: discovery (1), assessment (2), replication (3), caching in storage with state tracked in the vault (4), test migration and cutover (5), and RDP verification (6). Terraform provisions both clouds from the engineer workstation. The target resource group's VM, public IP, and test VM are created during migration and sit outside Terraform state.
